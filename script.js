@@ -100,7 +100,7 @@ function createFlower({ x = 0, scale = 1, petalColor, centerFront }) {
     translate: { z: 0 },
   });
 
-  // Tallo
+  // Stem
   new Zdog.Shape({
     addTo: flower,
     path: [
@@ -186,6 +186,7 @@ createCloud(180, -100, 1.1);
 createCloud(-500, -20, 1.1);
 createCloud(500, -10, 0.8);
 
+//Butterflies
 let butterflies = [];
 
 function createButterfly({ x = 0, y = 0, color = '#cba6f7', offset = 0 }) {
@@ -250,7 +251,7 @@ function createButterfly({ x = 0, y = 0, color = '#cba6f7', offset = 0 }) {
   butterflies.push({ butterfly, wings, offset });
 }
 
-// Crear mariposas
+// Butterfly copies
 createButterfly({ x: -300, y: -100, color: '#F0A8D5', offset: 0 });
 createButterfly({ x: 200, y: -20, color: '#EBAA46', offset: 1.5 });
 
