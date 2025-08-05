@@ -29,16 +29,28 @@ canvas {
 
 .content {
   position: absolute;
-  top: 28vh;
+  top: 30vh;
   z-index: 1;
-  padding: 0rem;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 90%;
 }
+
 
 h1 {
   font-family: 'Satoshi', sans-serif;
   font-size: 3.9rem;
   color: #5da1d6a7;
   margin: 0;
+}
+
+.subtitle {
+  font-family: 'Krub', sans-serif;
+  color: #4d5f9a92;
+  max-width: 100%;
+  margin: 0rem auto 0;
+  font-size: 1rem;
+  line-height: 0.5;
 }
 
 @media (max-width: 480px) {
@@ -49,13 +61,4 @@ h1 {
     font-size: 1rem;
     max-width: 90%;
   }
-}
-
-.subtitle {
-  font-family: 'Krub', sans-serif;
-  color: #4d5f9a92;
-  max-width: 100%;
-  margin: 0rem auto 0;
-  font-size: 1rem;
-  line-height: 0.5;
 }
