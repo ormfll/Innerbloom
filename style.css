@@ -31,15 +31,16 @@ canvas {
   position: absolute;
   top: 30vh;
   z-index: 1;
-  padding: 2rem;
+  padding: -1rem;
 }
 
 h1 {
   font-family: 'Satoshi', sans-serif;
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: #5da1d6a7;
   margin: 0;
 }
+
 @media (max-width: 480px) {
   h1 {
     font-size: 2rem;
@@ -53,8 +54,8 @@ h1 {
   font-family: 'Krub', sans-serif;
   font-weight: 500;
   color: #6e7ba7;
-  max-width: 90%;
-  margin: 1rem auto 0;
-  font-size: 1.1rem;
-  line-height: 1.5;
+  max-width: 100%;
+  margin: 0rem auto 0;
+  font-size: 1rem;
+  line-height: 1;
 }
