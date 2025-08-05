@@ -260,7 +260,7 @@ function animate() {
   t += 0.009;
 
 //Petals breathing
-  let scaleX = 2 + 0.8 * Math.sin(t * 1.2);
+  let scaleX = 2 + 0.8 * Math.sin(t * 0.9);
   let gust = Math.pow(Math.sin(t * 0.2), 3);
   let windPetal = Math.sin(t * 0.8) * gust * 3;
 

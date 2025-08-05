@@ -29,14 +29,14 @@ canvas {
 
 .content {
   position: absolute;
-  top: 30vh;
+  top: 28vh;
   z-index: 1;
-  padding: -1rem;
+  padding: 0rem;
 }
 
 h1 {
   font-family: 'Satoshi', sans-serif;
-  font-size: 4rem;
+  font-size: 3.9rem;
   color: #5da1d6a7;
   margin: 0;
 }
@@ -52,10 +52,9 @@ h1 {
 
 .subtitle {
   font-family: 'Krub', sans-serif;
-  font-weight: 500;
-  color: #6e7ba7;
+  color: #4d5f9a92;
   max-width: 100%;
   margin: 0rem auto 0;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 0.5;
 }
