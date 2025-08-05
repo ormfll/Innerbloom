@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap');
+@font-face {
+  font-family: 'Satoshi';
+  src: url('ruta-a-tu-font/Satoshi-Bold.woff2') format('woff2');
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(to top, #a0d8ef, #e0f7fa);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.content {
+  position: absolute;
+  top: 30vh;
+  z-index: 1;
+  padding: 2rem;
+}
+
+p {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 0;
+  color: #5da1d6a7;
+  margin: 0 0 0.6em 0;
+  max-width: 600px;
+}
+
+a {
+  font-family: 'Krub', sans-serif;
+  font-weight: 500;
+  color: #6977a49e;
+  text-decoration: none;
+  font-size: 1rem;
+}
